@@ -1,1 +1,1 @@
-# konkanischolarship
+# konkanischolarship.com
