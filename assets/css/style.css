@@ -1041,11 +1041,12 @@ section {
   background: #2487ce;
   background-size: cover;
   padding: 60px 0;
+  margin-top: 3.8rem;
 }
 
-.cta h3 {
+.cta h1 {
   color: #fff;
-  font-size: 28px;
+  /* font-size: 28px; */
   font-weight: 700;
 }
 
