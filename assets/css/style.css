@@ -264,7 +264,7 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    color: #a82682;
+    color: #fff;
 }
 
 .navbar .getstarted,
@@ -526,37 +526,22 @@ section {
 }
 
 @media (min-width: 1024px) {
-    .hero {
+    #hero {
         background-attachment: fixed;
     }
 }
 
-@media (max-width: 991px) {
-    .hero {
-        height: auto;
-        padding: 120px 0 60px 0;
-    }
-    .hero .hero-img {
-        text-align: center;
-        margin-top: 80px;
-    }
-    .hero .hero-img img {
-        width: 80%;
-    }
-}
-
 @media (max-width: 768px) {
-    .hero {
-        text-align: center;
+    #hero {
+        height: 100vh;
     }
-    .hero h1 {
-        font-size: 32px;
+    #hero h1 {
+        font-size: 28px;
+        line-height: 36px;
     }
-    .hero h2 {
-        font-size: 24px;
-    }
-    .hero .hero-img img {
-        width: 100%;
+    #hero h2 {
+        font-size: 18px;
+        line-height: 24px;
     }
 }
 
