@@ -44,7 +44,7 @@ h6 {
 --------------------------------------------------------------*/
 
 section {
-    padding: 60px 0;
+    padding: 40px 0;
     overflow: hidden;
 }
 
@@ -205,12 +205,19 @@ section {
 
 .header .logo span {
     font-size: 1.6em;
-    font-weight: 700;
+    font-weight: 900;
     letter-spacing: 1px;
     color: #a82682;
     font-family: "Nunito", sans-serif;
     margin-top: 3px;
     text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+    .header .logo span {
+        font-size: 24px;
+        font-weight: 700;
+    }
 }
 
 
@@ -1530,9 +1537,13 @@ section {
 }
 
 .team .eco {
-    text-align: center;
     padding-bottom: 40px;
     transition: 0.3s;
+}
+
+.team .eco p {
+    padding-top: 20px;
+    font-size: larger;
 }
 
 .team .eco h4 {
