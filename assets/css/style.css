@@ -492,6 +492,7 @@ section {
     font-size: 48px;
     font-weight: 700;
     color: #fff;
+    text-align: center;
 }
 
 .hero h2 {
@@ -1542,8 +1543,15 @@ section {
 }
 
 .team .eco p {
-    padding-top: 20px;
-    font-size: larger;
+    padding-top: 80px;
+    font-size: 23px;
+}
+
+@media (max-width: 768px) {
+    .team .eco p {
+        padding-top: 30px;
+        font-size: larger;
+    }
 }
 
 .team .eco h4 {
