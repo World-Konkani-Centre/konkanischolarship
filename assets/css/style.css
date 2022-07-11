@@ -205,7 +205,7 @@ section {
 
 .header .logo span {
     font-size: 1.6em;
-    font-weight: 900;
+    font-weight: 800;
     letter-spacing: 1px;
     color: #a82682;
     font-family: "Nunito", sans-serif;
@@ -215,7 +215,7 @@ section {
 
 @media (max-width: 500px) {
     .header .logo span {
-        font-size: 24px;
+        font-size: 16px;
         font-weight: 700;
     }
 }
