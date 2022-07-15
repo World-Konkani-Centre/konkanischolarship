@@ -472,7 +472,7 @@ section {
 .hero {
     width: 100%;
     height: 80vh;
-    background: url("../img/back.jpg") top center;
+    background: url("../img/back1.jpg") top center;
     background-size: cover;
     position: relative;
 }
@@ -492,7 +492,7 @@ section {
     font-size: 48px;
     font-weight: 700;
     color: #fff;
-    text-align: center;
+    text-align: left;
 }
 
 .hero h2 {
